@@ -1,6 +1,6 @@
 name: "HTMLProofer"
 author: "chabad360"
-description: "Scan your static page site with HTMLProofer"
+description: "Test your rendered HTML files to make sure they're accurate."
 
 inputs:
   directory:

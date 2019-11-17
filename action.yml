@@ -6,6 +6,10 @@ inputs:
   directory:
     description: "The directory to scan"
     required: true
+  arguments:
+      description: "Passes through options"
+      required: false
+      default: ""
 
 runs:
   using: "docker"

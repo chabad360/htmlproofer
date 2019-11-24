@@ -2,4 +2,4 @@
 
 set -e
 
-htmlproofer "${INPUT_DIRECTORY}"
+htmlproofer ${INPUT_ARGUMENTS} "${INPUT_DIRECTORY}"

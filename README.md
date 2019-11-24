@@ -59,5 +59,5 @@ This is just a portion of a `workflow.yml` to get you started (for more informat
           directory: "./public"
           # The directory to scan
           arguments: --allow-missing-href
-          # The areguments to pass to HTMLProofer
+          # The arguments to pass to HTMLProofer
 ```

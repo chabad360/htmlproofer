@@ -47,7 +47,8 @@ This is just a portion of a `workflow.yml` to get you started (for more informat
 | Key |  Description | Required | Default |
 | --- | ------------ | :------: | ------- |
 | `directory` | The directory to scan. | ✔️ | N/A |
-| `arguments` | The arguments to pass to HTMLProofer (see [here](https://github.com/gjtorikian/html-proofer/blob/master/bin/htmlproofer) for more details) | ❌ | N/A |
+
+<!--| `arguments` | The arguments to pass to HTMLProofer (see [here](https://github.com/gjtorikian/html-proofer/blob/master/bin/htmlproofer) for more details) | ❌ | N/A |-->
 
 #### Usage
 
@@ -58,7 +59,9 @@ This is just a portion of a `workflow.yml` to get you started (for more informat
         with:
           directory: "./public"
           # The directory to scan
-          arguemnts: --allow-missing-href
+```
+<!--
+          arguments: --allow-missing-href
           # The areguments to pass to HTMLProofer
 ```
-
+-->

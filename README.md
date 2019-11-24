@@ -1,6 +1,6 @@
 <div align="center" >
   <h1>
-  GitHub Actions for [HTMLProofer](https://github.com/gjtorikian/html-proofer)
+  GitHub Actions for HTMLProofer
   </h1>
   <h3>
     <a href="https://github.com/gjtorikian/html-proofer">
@@ -26,7 +26,13 @@
 </div>
 &nbsp;
 
-### Getting Started
+This action will test your site using [HTMLProofer](https://github.com/gjtorikian/html-proofer).
+
+> ⚠️ Note: To use this action, you must have applied to the GitHub Actions public beta. You can apply [here](https://github.com/features/actions/signup/).
+
+## ⭐ Getting Started
+
+This is just a portion of a `workflow.yml` to get you started (for more information scroll down to [⭐ Inputs](#-inputs)):
 
 ```yml
 ...
@@ -35,3 +41,24 @@
         with:
           directory: "./public"
 ```
+
+### ⭐ Inputs
+
+| Key |  Description | Required | Default |
+| --- | ------------ | :------: | ------- |
+| `directory` | The directory to scan. | ✔️ | N/A |
+| `arguments` | The arguments to pass to HTMLProofer (see [here](https://github.com/gjtorikian/html-proofer/blob/master/bin/htmlproofer) for more details) | ❌ | N/A |
+
+#### Usage
+
+```yml
+...
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./public"
+          # The directory to scan
+          arguemnts: --allow-missing-href
+          # The areguments to pass to HTMLProofer
+```
+

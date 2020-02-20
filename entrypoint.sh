@@ -4,4 +4,4 @@ set -e
 
 htmlproofer -v
 
-htmlproofer "${INPUT_DIRECTORY}" ${INPUT_ARGUMENTS} 
+echo ${INPUT_ARGUMENTS} | xargs htmlproofer "${INPUT_DIRECTORY}"

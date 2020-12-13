@@ -4,7 +4,7 @@
   </h1>
   <h3>
     <a href="https://github.com/gjtorikian/html-proofer">
-      gjtorokian/HTMLProofer: Test your rendered HTML files to make sure they're accurate.
+      gjtorikian/HTMLProofer: Test your rendered HTML files to make sure they're accurate.
     </a>
   </h3>
   <span>

@@ -28,8 +28,6 @@
 
 This action will test your site using [HTMLProofer](https://github.com/gjtorikian/html-proofer).
 
-> ⚠️ Note: To use this action, you must have applied to the GitHub Actions public beta. You can apply [here](https://github.com/features/actions/signup/).
-
 ## ⭐ Getting Started
 
 This is just a portion of a `workflow.yml` to get you started (for more information scroll down to [⭐ Inputs](#-inputs)):

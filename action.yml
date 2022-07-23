@@ -12,7 +12,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://ZoeLeBlanc/htmlproofer"
+  image: "docker://zoeleblanc/htmlproofer"
   entrypoint: "/entrypoint.sh"
 
 branding:

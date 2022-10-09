@@ -7,8 +7,8 @@ inputs:
     description: "The directory to scan"
     required: true
   arguments:
-      description: "HTMLProofer options"
-      required: false
+    description: "HTMLProofer options"
+    required: false
 
 runs:
   using: "docker"

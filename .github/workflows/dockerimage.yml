@@ -2,25 +2,24 @@ name: Docker Image CI
 
 on:
   push:
-    branches: 
+    branches:
       - master
-  
+
   schedule:
-    - cron: '1 1 * * *'   
+    - cron: "1 1 * * *"
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
- 
+
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
 
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag chabad360/htmlproofer
-        
+
       - name: Login to Docker Hub
         run: docker login --username=${{ secrets.DOCKER_USER }} --password=${{ secrets.DOCKER_TOKEN }}
-      
+
       - name: Publish to Docker Registry
         run: docker push chabad360/htmlproofer

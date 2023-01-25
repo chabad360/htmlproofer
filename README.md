@@ -45,7 +45,7 @@ This is just a portion of a `workflow.yml` to get you started (for more informat
 | Key |  Description | Required | Default |
 | --- | ------------ | :------: | ------- |
 | `directory` | The directory to scan. | ✔️ | N/A |
-| `arguments` | The arguments to pass to HTMLProofer (see [here](https://github.com/gjtorikian/html-proofer/blob/master/bin/htmlproofer) for more details) | ❌ | N/A |
+| `arguments` | The arguments to pass to HTMLProofer (see [here](https://github.com/gjtorikian/html-proofer#configuration) for more details) | ❌ | N/A |
 
 #### Usage
 
